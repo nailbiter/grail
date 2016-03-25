@@ -1,0 +1,7 @@
+{{ achievementType.name }}
+<br>
+<ul>
+{% for achievement in achievementType.achievement_set.all %}
+    <li>{{ achievement.name }}</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,9 @@
+{% if achievementTypesList %}
+    <ul>
+    {% for achievementType in achievementTypesList %}
+        <li><a href="{% url 'achievementType' achievementType.name %}">{{ achievementType.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
