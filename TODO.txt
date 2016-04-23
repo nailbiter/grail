@@ -1,0 +1,4 @@
+1. Use cases
+2. Learn Django
+3. Upload to Google App
+4. Hit pstepashko
